@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ecommerce.SellerPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fac0f7" height="400.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Label layoutX="64.0" layoutY="37.0" text="Seller Page">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="99.0" text="Product Name" />
+      <Label layoutX="61.0" layoutY="165.0" text="Product Price" />
+
+      <TextField fx:id="name" layoutX="61.0" layoutY="122.0" />
+      <TextField fx:id="price" layoutX="61.0" layoutY="188.0" />
+
+      <Button layoutX="250.0" layoutY="317.0" mnemonicParsing="false" text="Add Product" onMouseClicked="#AddProduct" />
+   </children>
+</AnchorPane>
